@@ -1033,7 +1033,7 @@ namespace AgOpenGPS
                     }
                 }
             }
-
+            fd.UpdateFieldBoundaryGUIAreas();
         }//end of open file
 
         //creates the field file when starting new field

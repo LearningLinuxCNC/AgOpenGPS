@@ -162,7 +162,7 @@ namespace AgOpenGPS
 
                                 double dist = GetDistance(lon, lat, mf.pn.longitude, mf.pn.latitude);
 
-                                if (dist < 500)
+                                if (dist < 2500)
                                 {
                                     numFields++;
                                     if (string.IsNullOrEmpty(infieldList))
